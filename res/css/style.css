@@ -257,10 +257,7 @@ header {
 /********************************/
 .section-skills {
     background-color: #f4f4f4;
-}
-
-.section-skills ul {
-    margin-left: 20px;
+    text-align: center;
 }
 
 .section-skills ul li {
