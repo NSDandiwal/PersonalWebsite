@@ -21,7 +21,7 @@ body {
 /* RESUABLES */
 /********************************/
 .row {
-    width: 1024px;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -239,17 +239,26 @@ header {
 /********************************/
 .job-box {
     padding: 10px;
-    background-color: #f4f4f4;
-    border-radius: 5px;
     margin-top: 10px;
 }
 
-.section-job-experience ul li{
-    list-style: circle;
+.job-box:after {
+    display: block;
+    content: ' ';
+    height: 2px;
+    background-color: #d9d9d9;
+}
+
+.job-box p,
+.job-box ul {
     font-size: 90%;
     font-size: 80%;
     font-weight: 400;
-    padding: 5px 0;
+}
+
+.job-box ul li{
+    display: block;
+    padding: 2px;
 }
 
 /********************************/
