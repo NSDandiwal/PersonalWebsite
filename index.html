@@ -17,56 +17,257 @@
         <title>Navdeep Singh Dandiwal</title>
         
         <!-- Responsive grid system -->
-        <link rel="stylesheet" href="res_vendor/css/html5reset.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/col.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/2cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/3cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/4cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/5cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/6cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/7cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/8cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/9cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/10cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/11cols.css" media="all">
-        <link rel="stylesheet" href="res_vendor/css/12cols.css" media="all">
+        <link rel="stylesheet" href="res_vendor/css/col.css">
+        <link rel="stylesheet" href="res_vendor/css/1col.css">
+        <link rel="stylesheet" href="res_vendor/css/2col.css">
+        <link rel="stylesheet" href="res_vendor/css/3col.css">
+        <link rel="stylesheet" href="res_vendor/css/4col.css">
+        <link rel="stylesheet" href="res_vendor/css/5col.css">
+        <link rel="stylesheet" href="res_vendor/css/6col.css">
+        <link rel="stylesheet" href="res_vendor/css/7col.css">
+        <link rel="stylesheet" href="res_vendor/css/8col.css">
+        <link rel="stylesheet" href="res_vendor/css/9col.css">
+        <link rel="stylesheet" href="res_vendor/css/10col.css">
+        <link rel="stylesheet" href="res_vendor/css/11col.css">
+        <link rel="stylesheet" href="res_vendor/css/12col.css"> 
         <!-- CSS for every browser -->
         <link href="res_vendor/css/normalize.css" rel="stylesheet">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i" rel="stylesheet">
         <!-- Stylesheets -->
         <link rel="stylesheet" href="res/css/style.css">
-        
+        <script src="res/js/script.js"></script>
     </head>
     <body>
+        
         <header>
             <div class="row clearfix">
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Work Experience</a></li>
-                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Job Experience</a></li>
                         <li><a href="#">Skills</a></li>
-                        <li><a href="#">Extra-curricural</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Contact me</a></li>
                     </ul>
                 </nav>
                 <div class="profile">
-                    <h1>Software Developer &amp; Data Scientist</h1>
-                    <p>
-                        <a href="index.html">Navdeep Singh Dandiwal</a>
-                    </p>
+                    <h1>Navdeep Singh Dandiwal</h1>
+                    <a href="index.html" class="btn">Software Developer</a>
+                    <a href="index.html" class="btn">Data Scientist</a>
                 </div>
             </div>
         </header>
         
-        <section>
-            <div class="row">
-                <h2>About me</h2>
+        <section class="section-job-experience">
+            <div clas="row">
+                <h2>Job Experience</h2>
             </div>
             <div class="row">
-                <p></p>
+                <p class="long-copy">
+                    <span><label id="total-years"></label> years</span> Professional Experience
+                </p>
+            </div>
+            <div class="job-box row">
+                <div class="col span-1-of-3">
+                    <h3>Technical Consultant</h3>
+                    <h5><a href="http://www.perficient.com/">Perficient, Inc.</a></h5>
+                    <h4>Feb 2015 - Present</h4>
+                </div>
+                <div class="col span-2-of-3">
+                    <ul>
+                        <li>Designed data schema for applications and data warehouse under storage constraints to maximize output</li>
+                        <li>Implemented ArcGIS APIs to spatially visualize deployed devices on ESRI maps and optimized rendering process</li>
+                        <li>Developed Informatica ETLs to bring data from structured, semi-structured and unstructured sources</li>
+                        <li>As a business analyst, gathered requirements from the business to analyze project timeline feasibility</li>
+                        <li>Streamlined the inventory tracking process by creating SSRS reports that helped manage ~400K service points</li>
+                        <li>Engineered 3-tier MVC business application using C# ASP.Net in agile environment for a team of 18</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job-box row">
+                <div class="col span-1-of-3">
+                    <h3>Java Developer Intern</h3>
+                    <h5><a href="http://www.perficient.com/">Perficient, Inc.</a></h5>
+                    <h4>Jun 2014 - Oct 2014</h4>
+                </div>
+                <div class="col span-2-of-3">
+                    <ul>
+                        <li>Automated data configuration process with Object Oriented approach enhancing process by ~60%</li>
+                        <li>Conducted meetings with client to facilitate Agile methodology speeding up the requirement gathering process</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job-box row">
+                <div class="col span-1-of-3">
+                    <h3>Systems Enigneer</h3>
+                    <h5><a href="https://www.infosys.com/">Infosys Limited</a></h5>
+                    <h4>Feb 2012 - June 2013</h4>
+                </div>
+                <div class="col span-2-of-3">
+                    <ul>
+                        <li>Developed scripts to compare text which improved issue resolution speed by approx. 20 minutes</li>
+                        <li>Developed web tool to centralize incidence resolution information resulting in fast knowledge transfer sessions</li>
+                        <li>Trained the team(15 members) to execute critical SQL queries using transactions to avoid data accidents</li>
+                        <li>Built console based and online tourism management system and online library management system in a team of 4</li>
+                    </ul>
+                </div>
             </div>
         </section>
         
+        <section class="section-skills">
+            <div class="row">
+                <h2>Skills</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C#.Net</li>
+                        <li>SQL</li>
+                        <li>PL/SQL</li>
+                        <li>Oracle</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JSON</li>
+                        <li>XML</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Lisp</li>
+                        <li>Haskel</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-3">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>AngularJS</li>
+                        <li>NodeJS</li>
+                        <li>MapReduce (Hadoop)</li>
+                        <li>Hive</li>
+                        <li>Android SDK</li>
+                        <li>MVC</li>
+                        <li>DAO</li>
+                        <li>Hibernate</li>
+                        <li>Struts</li>
+                        <li>JavaBeans</li>
+                        <li>ESRI ArcGIS</li>
+                        <li>Bing Maps API</li>
+                        <li>Google Charts API</li>
+                        <li>CUDA</li>
+                        <li>Open MP</li>
+                        <li>MPI Framework</li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-3">
+                    <h3>IDEs &amp; Others</h3>
+                    <ul>
+                        <li>Eclipse</li>
+                        <li>NetBeans</li>
+                        <li>Microsoft Visual Studio 2012</li>
+                        <li>Informatica</li>
+                        <li>MATLAB</li>
+                        <li>R for Statistical Computing</li>
+                        <li>Microsoft SQL Server</li>
+                        <li>MySQL Workbench</li>
+                        <li>Heidi Sql</li>
+                        <li>Linux (Ubuntu)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-projects">
+            <div class="row">
+                <h2>Projects</h2>
+            </div>
+            <div class="container">
+                <div class="col span-1-of-3">
+                    ASDASDASD
+                </div>
+            </div>
+            <div class="container">
+                <div class="col span-1-of-3">
+                    ASDASDASD
+                </div>
+            </div>
+            <div class="container">
+                <div class="col span-1-of-3">
+                    ASDASDASD
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="section-education">
+            <div class="row">
+                <h2>Education</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 box">
+                    <h3><span>M.S.</span> in Computer Science</h3>
+                    <p>
+                        <a href="http://www.uncc.edu/">University of North Carolina at Charlotte</a>
+                    </p>
+                    <p>
+                        Specialization in Data Science
+                    </p>
+                    <p>
+                        Class of Dec 2014
+                    </p>
+                    <p>
+                        GPA: 3.7/4
+                    </p>
+                </div>
+                <div class="col span-1-of-2 box">
+                    <h3><span>B. Tech.</span> in Computer Science &amp; Engineering</h3>
+                    <p>
+                        <a href="http://www.sbsstc.ac.in/">Shaheed Bhagat Singh College of Engg. &amp; Technology</a>
+                    </p>
+                    <p>
+                        Class of May 2011
+                    </p>
+                    <p>
+                        GPA: 3.7/4
+                    </p>
+                </div>
+            </div>
+        </section>  
+        
+        <section class="section-about-me">
+            <div class="row">
+                <h2>About me</h2>
+                <p class="long-copy">Actions speak louder than words, hence my goal is to showcase my skills on this website of mine. After all i pay for the server space and domain name. But below are some of the idiologies  i believe in...</p>
+            </div>
+            <div class="row clearfix">
+                <div class="col span-1-of-4 box">
+                    <h3><span>Work Hard, then Harder</span></h3>
+                    <p>
+                        I believe  that luck follows hard work, and hence one should not be afraid to be diligent in following the plan. 
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3><span>Healthy Body, Healthy Mind</span></h3>
+                    <p>
+                        Firm belief in fitness has lead me to perform better in professional life. Being in shape never hurts.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3><span>Life is a Team sport</span></h3>
+                    <p>
+                        Coming from sports background, i have learnt that your success always depend on people you are surrounded with.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3><span>Stay Hungry, Stay Foolish</span></h3>
+                    <p>
+                        Yes i am foodie! Jk, great words by "Steve Jobs". Plus a little humor never hurts.
+                    </p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
