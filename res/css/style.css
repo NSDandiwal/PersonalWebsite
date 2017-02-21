@@ -17,6 +17,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+
 /********************************/
 /* RESUABLES */
 /********************************/
@@ -242,7 +243,7 @@ header {
     margin-top: 10px;
 }
 
-.job-box:after {
+.job-box:before {
     display: block;
     content: ' ';
     height: 2px;
@@ -266,11 +267,28 @@ header {
 /********************************/
 .section-skills {
     background-color: #f4f4f4;
+}
+
+.section-skills .col {
+    background-color: #fff;
+    border-radius: 5px;
     text-align: center;
+    padding: 10px 0;
+}
+
+.section-skills h4 {
+    margin-top: 15px;
+}
+
+.section-skills h4:after {
+    display: block;
+    content: ' ';
+    height: 1px;
+    background-color: #d0d0d0;
 }
 
 .section-skills ul li {
-    list-style: none;
+    display: block;
 }
 
 /********************************/
