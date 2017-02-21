@@ -22,12 +22,12 @@ body {
 /* RESUABLES */
 /********************************/
 .row {
-    width: 75%;
+    width: 1024px;
     margin: 0 auto;
 }
 
 section {
-    padding: 3% 0;
+    padding: 20px 0;
 }
 
 span {
@@ -45,7 +45,7 @@ h3 {
 h1 {
     display: block;
     color: #fff;
-    font-size: 240%;
+    font-size: 300%;
     word-spacing: 4px;
     letter-spacing: 1px;
     margin: 0;
@@ -186,6 +186,7 @@ a:active {
     visibility: hidden;
 }
 
+
 /********************************/
 /* HEADER */
 /********************************/
@@ -207,7 +208,7 @@ header {
 
 /* Main navigation */
 .main-nav {
-    margin-top: 40px;
+    margin: 20px 0;
     float: right;
     list-style: none;
 }
@@ -236,7 +237,7 @@ header {
 
 
 /********************************/
-/* SECTION EDUCATION */
+/* SECTION EXPERIENCE */
 /********************************/
 .job-box {
     padding: 10px;
@@ -262,39 +263,43 @@ header {
     padding: 2px;
 }
 
+
 /********************************/
 /* SECTION SKILLS */
 /********************************/
-.section-skills {
+.section-arsenal {
     background-color: #f4f4f4;
 }
 
-.section-skills .col {
+.section-arsenal .col {
     background-color: #fff;
     border-radius: 5px;
     text-align: center;
     padding: 10px 0;
 }
 
-.section-skills h4 {
+.section-arsenal h4 {
     margin-top: 15px;
 }
 
-.section-skills h4:after {
+.section-arsenal h4:after {
     display: block;
     content: ' ';
     height: 1px;
     background-color: #d0d0d0;
 }
 
-.section-skills ul li {
+.section-arsenal ul li {
     display: block;
 }
 
-/********************************/
-/* SECTION EDUCATION */
-/********************************/
 
+/********************************/
+/* SECTION PROJECTS */
+/********************************/
+.section-portfolio {
+    
+}
 
 
 /********************************/
