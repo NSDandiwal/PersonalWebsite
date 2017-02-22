@@ -169,12 +169,10 @@ a:active {
     color: #e67e22;
     font-size: 120%;
     line-height: 120%;
-    margin-right: 10px;
     
     /*secrets to aligh text and icons*/
     line-height: 120%;
     vertical-align: middle;
-    margin-top: -5px;
 }
 
 /*----------- CLEARING FLOATS -------------*/
@@ -300,7 +298,7 @@ header {
 }
 
 /********************************/
-/* SECTION PROJECTS */
+/* SECTION PORTFOLIO */
 /********************************/
 .section-portfolio {
     
@@ -308,5 +306,54 @@ header {
 
 
 /********************************/
-/* SECTION ABOUT ME */
+/* SECTION KNOW ME */
 /********************************/
+.showcase {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.showcase div {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.showcase .col {
+    margin: 0;
+    //padding: 0;
+}
+
+.showcase img {
+    width: 100%;
+    opacity: 0.6;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.showcase img:hover {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
+
+/********************************/
+/* FOOTER */
+/********************************/
+footer {
+    height: 200px;
+    background-color: #404040;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer a:link,
+footer a:visited {
+    border-bottom: none;
+}
+
+footer a:hover,
+footer a:active {
+    
+}
