@@ -5,8 +5,8 @@ This is a simple website build using <b>JavaScript, HTML5 and CSS3</b>.
 </p>
 
 <h2>Future Extensions</h2>
-<p>
-Database supported website.
-Implement business logic using NodeJS.
-Collect viewership data and analyze it.
-</p>
+<ul>
+  <li>Database supported website.<li>
+  <li>Implement business logic using NodeJS.<li>
+  <li>Collect viewership data and analyze it.<li>
+</ul>
