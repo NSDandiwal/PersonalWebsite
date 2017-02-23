@@ -27,7 +27,7 @@ body {
 }
 
 section {
-    padding: 20px 0;
+    padding: 60px 0;
 }
 
 span {
@@ -336,6 +336,20 @@ header {
     transform: scale(1.25);
 }
 
+
+/********************************/
+/* SECTION CONTACT */
+/********************************/
+.section-contact{
+    background-color: #ebebeb;
+}
+
+.section-contact .col:first-child {
+    padding-left: 30%;
+}
+
+.section-contact .col:last-child {
+}
 
 /********************************/
 /* FOOTER */
