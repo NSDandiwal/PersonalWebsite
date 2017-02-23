@@ -15,3 +15,11 @@ function totalExp() {
 window.onload = function () {
     totalExp();
 };
+
+/****Test Waypoint.js***/
+var waypoint = new Waypoint({
+  element: document.getElementById('sec-exp'),
+  handler: function() {
+    notify('Basic waypoint triggered')
+  }
+})
